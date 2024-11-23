@@ -4,7 +4,7 @@ kind: ClusterClaim
 metadata:
   name: cluster-01
 spec:
-  id: cluster-01
+  id: cluster01
   compositionSelector:
     matchLabels:
       # provider: google
@@ -13,4 +13,4 @@ spec:
       cluster: aks
   parameters:
     nodeSize: small
-    minNodeCount: 1
+    minNodeCount: 5
