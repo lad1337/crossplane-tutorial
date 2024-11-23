@@ -10,7 +10,7 @@ spec:
       # provider: google
       # cluster: gke
       provider: azure
-      cluster: gke
+      cluster: aks
   parameters:
     nodeSize: small
     minNodeCount: 1
