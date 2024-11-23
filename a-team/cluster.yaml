@@ -7,9 +7,10 @@ spec:
   id: cluster-01
   compositionSelector:
     matchLabels:
-      provider: google
+      # provider: google
       # cluster: gke
-      cluster: aks
+      provider: azure
+      cluster: gke
   parameters:
     nodeSize: small
     minNodeCount: 1
