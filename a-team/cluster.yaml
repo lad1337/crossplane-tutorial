@@ -8,8 +8,8 @@ spec:
   compositionSelector:
     matchLabels:
       provider: google
-      cluster: gke
-      # cluster: aks
+      # cluster: gke
+      cluster: aks
   parameters:
     nodeSize: small
     minNodeCount: 1
